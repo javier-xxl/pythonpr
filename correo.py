@@ -43,17 +43,17 @@
 # ------------------------------------------------------------------------------------------------------------------
 
 # información personal
-# nombre = input("Ingrese su nombre en munisculas: ")
-# apellido = input("Ingrese su apellido munisculas: ")
+nombre = input("Ingrese su nombre en munisculas: ")
+apellido = input("Ingrese su apellido munisculas: ")
 
-# # creacion del correo empresarial
-# correo_empresarial = f"{nombre.lo40wer()}.{apellido.lower()}@cetus.com.co"
+# creacion del correo empresarial
+correo_empresarial = f"{nombre.lower()}.{apellido.lower()}@cetus.com.co"
 
-# # Mostrar el correo empresarial generado
-# print(f"Su correo empresarial es: {correo_empresarial}")
+# Mostrar el correo empresarial generado
+print(f"Su correo empresarial es: {correo_empresarial}")
 
-# # Mostrar mensaje de agradecimiento
-# print("¡Gracias por utilizar nuestra herramienta de generación de correos empresariales!")
+# Mostrar mensaje de agradecimiento
+print("¡Gracias por utilizar nuestra herramienta de generación de correos empresariales!")
 
 # ---------------------------------------------------------------------------------------------------------------
 
